@@ -1,1 +1,1 @@
-# dvpsun-mipt2025s-5-modern-cv
+# mipt2025s-5-modern-cv
