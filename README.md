@@ -1,0 +1,1 @@
+# mipt2025s_pankratov_e_p
