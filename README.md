@@ -15,7 +15,7 @@ mipt2025s-5-modern-cv
 ## Имплементация детектора баркодов
 Пока работает в тестовом режиме на 1 картинке. Ничего не показывает, потому что yolo не обучена детектить штрихкоды.
 Чтобы проверить запускайте:
-- на windows `.\run_decoder.ps1` / на Mac, Linux `make detector`
+- на windows `.\run_detector.ps1` / на Mac, Linux `make detector`
 - `python3 bar_code_searcher.py`
 
 ### TODO:
