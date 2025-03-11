@@ -1,4 +1,4 @@
 .PHONY: detector
 detector:
 	docker-compose up --build -d
-	docker-compose exec app bash
+	docker-compose exec app /bin/bash
