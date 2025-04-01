@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: build\barcode_detector_classifier\Dockerfile
+    runtime: nvidia  # Используем NVIDIA runtime для поддержки видеокарты
+    volumes:
+      - .:/app  
+      - .:/data
+      - .:/results
+    tty: true  # Обеспечиваем интерактивный режим
+    stdin_open: true  # Обеспечиваем возможность ввода
